@@ -1,0 +1,113 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Grid System</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <link rel="icon" href="">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+</head>
+<body>
+
+<section>
+ 
+  <div class="container-fluid">
+    
+    <div class="row text-center">
+      <div class="containers col bg-dark text-light">equal width</div>
+      <div class="containers col bg-warning">equal width</div>
+      <div class="containers col bg-success">equal width</div>
+    </div>
+    
+    <div class="row text-center">
+      <div class="containers col bg-secondary bg-gradient">equal width</div>
+      <div class="containers col bg-danger bg-gradient">equal width</div>
+    </div>
+
+    <div class="row text-center">
+      <div class="containers col bg-gradient bg-primary"></div>
+      <div class="containers col-6 bg-gradient bg-success">wider width</div>
+      <div class="containers col bg-gradient bg-dark"></div>
+    </div>
+
+  </div>
+
+</section>
+
+<div class="mt-5"></div>
+
+<section>
+  <div class="container-fluid">
+    
+    <div class="row">
+      <div class="containers col-md-3 bg-secondary"></div>  
+      <div class="containers col-md-3 bg-warning"></div>  
+      <div class="containers col-md-3 bg-dark"></div>  
+      <div class="containers col-md-3 bg-primary"></div>  
+    </div>
+
+  </div> 
+
+
+  <div class="row">
+    <div class="containers col-md-7 bg-primary bg-gradient"></div>
+    <div class="containers col-md-5 bg-success bg-gradient"></div>
+  </div>
+</section>
+
+<div class="mt-5"></div>
+
+<section id="holyGrail">
+ 
+<div class="row">
+  <div class="containers col-md-12 bg-gradient bg-primary"></div>
+</div>
+
+<div class="row">
+  <div class="col-md-2 bg-success">1st Grid</div>
+  <div class="col-md-8 bg-secondary">
+   
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="text-center text-light text-uppercase mt-1">Nested Grid Column</h3>
+      </div>
+    </div>
+
+    <hr class="text-light border border-2">
+
+    <div class="row">
+      <div class="col-md-4">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+      </div>
+      <div class="col-md-4">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+      </div>
+      <div class="col-md-4">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+      </div>
+    </div>
+
+  </div>
+  <div class="col-md-2 bg-warning">3rd grid</div>
+</div>
+
+<div class="row">
+  <div class="col-md-4 containers bg-warning"></div>
+  <div class="col-md-8 containers bg-primary"></div>
+</div>
+
+</section>
+
+<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

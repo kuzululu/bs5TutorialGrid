@@ -1,0 +1,19 @@
+body{
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+}
+
+.containers{
+ height: 10em;	
+}
+
+#holyGrail .row:nth-child(2) > div{
+	height: 25em;
+}
+
+#holyGrail .row:nth-child(2) .col-md-8{
+	height: auto;
+}
